@@ -1,0 +1,153 @@
+@font-face {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    src: url(../fonts/Montserrat-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    src: url(../fonts/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'DelaGothicOne';
+    font-weight: 400;
+    src: url(../fonts/DelaGothicOne-Regular.ttf);
+}
+
+:root {
+    --dark-gray: #757575;
+    --black: #000000;
+    --dark-cyan: #2B788B;
+    --light-cyan: #C3DCE3;
+    --dark-pink: #945069;
+    --light-pink: #F2D4DC;
+}
+
+.container {
+    width: 1920px;
+    padding: 0px;
+    margin: 0 auto;
+    border: 2px solid #ff0000;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    font-family: 'DelaGothicOne', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav-link-site {
+    font-weight: 600;
+    font-size: 16px;
+
+    color: var(--dark-gray);
+}
+
+.nav-link-site:hover {
+    color: var(--black);
+}
+
+.account-name {
+    font-weight: 600;
+
+    color: var(--dark-gray);
+}
+
+.account-sign-out {
+    font-weight: 700;
+
+    color: var(--black);
+}
+
+.information-platform {
+    font-weight: 700;
+
+    color: var(--dark-cyan);
+}
+
+.information-name {
+    font-weight: 400;
+}
+
+.information-description {
+    font-weight: 600;
+
+    color: var(--dark-gray);
+}
+
+.platform-button {
+    font-weight: 700;
+    font-size: 16px;
+
+    color: var(--dark-cyan);
+    background-color: var(--light-cyan);
+
+    border-width: 0px;
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    border-radius: 100px;
+}
+
+.interactive-popular-words {
+    font-weight: 400;
+}
+
+.interactive-name {
+    font-weight: 600;
+}
+
+.interactive-popular-words2 {
+    font-weight: 400;
+}
+
+.interactive-name2 {
+    font-weight: 600;
+}
+
+.interactive-cards3 {
+    background-color: var(--light-pink);
+}
+
+.interactive-name3 {
+    font-weight: 700;
+
+    color: var(--dark-pink);
+}
+
+.interactive-cards4 {
+    background-color: var(--light-cyan);
+}
+
+.interactive-name4 {
+    font-weight: 700;
+
+    color: var(--dark-cyan);
+}
+
+.nav-link-site2 {
+    font-weight: 600;
+
+    color: var(--dark-gray);
+}
+
+.nav-link-author {
+    font-weight: 600;
+
+    color: var(--dark-gray);
+}
+
+.copyright {
+    font-weight: 600;
+
+    color: var(--dark-gray);
+}

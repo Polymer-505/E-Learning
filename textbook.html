@@ -4,50 +4,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Textbook</title>
+    <link rel="stylesheet" href="css/style2.css">
 </head>
 
 <body>
     <header>
-        <img src="/img/classbook/globaltalk-logo.svg" alt="GlobalTalk Logo">
-        <nav class="nav1">
-            <a href="/index.html">Home</a>
-            <a href="/textbook.html">Textbook</a>
-            <a href="#">Statistics</a>
-            <a href="#">Games</a>
-        </nav>
-        <section class="account-settings">
-            <img src="/img/classbook/account-logo.svg" alt="account-logo">
-            <h3>Alex</h3>
-            <a href="#">Sign Up</a>
-        </section>
+        <div class="container header-wrap">
+            <img src="./images/textbook/globaltalk-logo.svg" alt="GlobalTalk Logo">
+            <nav class="nav-site">
+                <a class="nav-link-site" href="index.html">Home</a>
+                <a class="nav-link-site" href="textbook.html">Textbook</a>
+                <a class="nav-link-site" href="#">Statistics</a>
+                <a class="nav-link-site" href="#">Games</a>
+            </nav>
+            <section class="account-settings">
+                <img class="account-logo" src="./images/textbook/account-logo.svg" alt="account-logo">
+                <h3 class="account-name">Alex</h3>
+                <a class="account-sign-out" href="#">Sign Out →</a>
+            </section>
+        </div>
     </header>
     <hr>
     <main>
-        <nav class="nav2">
-            <img src="/img/classbook/academiс-cap.svg" alt="">
-            <h3>Textbook</h3>
-            <img src="/img/classbook/settings-icon.svg" alt="">
-            <button>Sprint</button>
-            <button>Audio-Call</button>
+        <nav class="nav-site2">
+            <img class="nav-site2-img" src="./images/textbook/academiс-cap.svg" alt="">
+            <h3 class="nav-site2-name">Textbook</h3>
+            <img class="nav-site2-settings" src="./images/textbook/settings-icon.svg" alt="">
+            <button class="nav-site2-game1">Sprint</button>
+            <button class="nav-site2-game2">Audio-Call</button>
         </nav>
-        <nav class="nav3">
-            <a href="#">A1</a>
-            <p>Easy</p>
-            <a href="#">A2</a>
-            <p>Easy</p>
-            <a href="#">B1</a>
-            <p>Medium</p>
-            <a href="#">B2</a>
-            <p>Medium</p>
-            <a href="#">C1</a>
-            <p>Hard</p>
-            <a href="#">C2</a>
-            <p>Hard</p>
+        <nav class="nav-site3">
+            <section class="nav-site3-part1">
+                <a class="nav-site3-level" href="#">A1</a>
+                <p class="nav-site3-difucult">Easy</p>
+            </section>
+            <section class="nav-site3-part2">
+                <a class="nav-site3-level2" href="#">A2</a>
+                <p class="nav-site3-difucult1">Easy</p>
+            </section>
+            <section class="nav-site3-part3">
+                <a class="nav-site3-level3" href="#">B1</a>
+                <p class="nav-site3-difucult2">Medium</p>
+            </section>
+            <section class="nav-site3-part4">
+                <a class="nav-site3-level4" href="#">B2</a>
+                <p class="nav-site3-difucult2">Medium</p>
+            </section>
+            <section class="nav-site3-part5">
+                <a class="nav-site3-level5" href="#">C1</a>
+                <p class="nav-site3-difucult3">Hard</p>
+            </section>
+            <section class="nav-site3-part6">
+                <a class="nav-site3-level6" href="#">C2</a>
+                <p class="nav-site3-difucult3">Hard</p>
+            </section>
         </nav>
         <article class="word-card">
             <div class="thumb">
-                <img src="/img/classbook/crad-img1.png" alt="">
+                <img class="word-card-png" src="./images/textbook/crad-img1.png" alt="">
             </div>
             <div class="word-card-content">
                 <h2 class="word-card-header">remark / note</h2>
@@ -59,7 +74,7 @@
         </article>
         <article class="word-card">
             <div class="thumb">
-                <img src="/img/classbook/crad-img2.png" alt="">
+                <img class="word-card-png" src="./images/textbook/crad-img2.png" alt="">
             </div>
             <div class="word-card-content">
                 <h2 class="word-card-header">awful / terrible</h2>
@@ -71,7 +86,7 @@
         </article>
         <article class="word-card">
             <div class="thumb">
-                <img src="/img/classbook/crad-img1.png" alt="">
+                <img class="word-card-png" src="./images/textbook/crad-img1.png" alt="">
             </div>
             <div class="word-card-content">
                 <h2 class="word-card-header">remark / note</h2>
@@ -83,39 +98,41 @@
         </article>
         <section class="pagination">
             <section class="pagination-part1">
-                <p>←</p>
-                <p>1</p>
-                <p>2</p>
-                <p>3</p>
+                <p class="pagination-page-back">←</p>
+                <p class="pagination-page-1">1</p>
+                <p class="pagination-page-2">2</p>
+                <p class="pagination-page-3">3</p>
             </section>
             <p class="pagination-part2">...</p>
             <section class="pagination-part3">
-                <p>27</p>
-                <p>28</p>
-                <p>29</p>
-                <p>→</p>
+                <p class="pagination-page-27">27</p>
+                <p class="pagination-page-28">28</p>
+                <p class="pagination-page-29">29</p>
+                <p class="pagination-page-forward">→</p>
             </section>
         </section>
     </main>
 
     <footer>
-        <nav class="nav2">
-            <a href="/index.html">Home</a>
-            <a href="/textbook.html">Textbook</a>
-            <a href="#">Statistics</a>
-            <a href="#">Sprint</a>
-            <a href="#">Audio-call</a>
-        </nav>
-        <nav class="nav-author">
-            <a href="#">Alex</a>
-            <a href="#">Gabriel</a>
-            <a href="#">Marcus</a>
-        </nav>
-        <hr>
-        <img src="/img/classbook/github-logo.svg" alt="">
-        <img src="/img/classbook/gt-logo.svg" alt="">
-        <img src="/img/classbook/youtube-logo.svg" alt="">
-        <p>©2021 GlobalTalk. Project for GlobalTalk.</p>
+        <div class="container">
+            <nav class="nav-site2">
+                <a class="nav-link-site2" href="index.html">Home</a>
+                <a class="nav-link-site2" href="textbook.html">Textbook</a>
+                <a class="nav-link-site2" href="#">Statistics</a>
+                <a class="nav-link-site2" href="#">Sprint</a>
+                <a class="nav-link-site2" href="#">Audio-call</a>
+            </nav>
+            <nav class="nav-author">
+                <a class="nav-link-author" href="#">Alex</a>
+                <a class="nav-link-author" href="#">Gabriel</a>
+                <a class="nav-link-author" href="#">Marcus</a>
+            </nav>
+            <hr>
+            <img class="logo" src="./images/textbook/github-logo.svg" alt="">
+            <img class="logo" src="./images/textbook/gt-logo.svg" alt="">
+            <img class="logo" src="./images/textbook/youtube-logo.svg" alt="">
+            <p class="copyright">©2021 GlobalTalk. Project for GlobalTalk.</p>
+        </div>
     </footer>
 </body>
 
