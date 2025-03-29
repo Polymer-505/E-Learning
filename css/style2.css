@@ -1,0 +1,268 @@
+@font-face {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    src: url(../fonts/Montserrat-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    src: url(../fonts/Montserrat-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    src: url(../fonts/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'DelaGothicOne';
+    font-weight: 400;
+    src: url(../fonts/DelaGothicOne-Regular.ttf);
+}
+
+:root {
+    --dark-gray: #757575;
+    --light-gray: #F6F5F4;
+    --black: #000000;
+    --dark-cyan: #2B788B;
+    --light-cyan: #C3DCE3;
+    --dark-pink: #945069;
+    --light-pink: #F2D4DC;
+    --green: #639B6D;
+    --light-green: #639B6D4D;
+    --dark-yellow: #C4A24C;
+    --light-yellow: #C4A24C4D;
+    --dark-red: #CB5B43;
+    --light-red: #CB5B434D;
+}
+
+.container {
+    width: 1180px;
+    padding: 0 15px;
+    margin: 0 auto;
+    border: 2px solid #ff0000;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav-site2-name,
+.nav-site3-level1,
+.nav-site3-level2,
+.nav-site3-level3,
+.nav-site3-level4,
+.nav-site3-level5,
+.nav-site3-level6,
+.word-card-header {
+    font-family: 'DelaGothicOne', sans-serif;
+    font-weight: 400;
+}
+
+/* Header */
+.header-wrap {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.nav-site {
+    display: flex;
+    flex-grow: 1;
+    gap: 30px;
+}
+
+.nav-link-site {
+    font-weight: 600;
+    font-size: 16px;
+
+    color: var(--dark-gray);
+}
+
+.nav-link-site:hover {
+    color: var(--black);
+}
+
+.nav-link-first {
+    padding-left: 30px;
+    border-left: 1px solid var(--light-gray);
+}
+
+.account-settings {
+    display: flex;
+    gap: 20px;
+}
+
+.account-name {
+    font-weight: 600;
+    font-size: 16px;
+    padding-right: 30px;
+
+    color: var(--dark-gray);
+}
+
+.account-sign-out {
+    font-weight: 700;
+    font-size: 16px;
+    padding-top: 16px;
+
+    color: var(--black);
+}
+
+/* Main */
+.nav-site2-name {
+    font-size: 26px;
+}
+
+.nav-site2-game1,
+.nav-site2-game2 {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.nav-site3-level1,
+.nav-site3-level2,
+.nav-site3-level3,
+.nav-site3-level4,
+.nav-site3-level5,
+.nav-site3-level6 {
+    color: var(--black);
+
+    font-size: 26px;
+}
+
+.nav-site3-difucult {
+    background-color: var(--green);
+    color: white;
+}
+
+.nav-site3-difucult1 {
+    background-color: var(--light-green);
+    color: var(--green);
+}
+
+.nav-site3-difucult2 {
+    background-color: var(--light-yellow);
+    color: var(--dark-yellow);
+}
+
+.nav-site3-difucult3 {
+    background-color: var(--light-red);
+    color: var(--dark-red);
+}
+
+.nav-site3-difucult,
+.nav-site3-difucult1,
+.nav-site3-difucult3 {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.word-card-transcription {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.word-card-text2 {
+    color: var(--dark-gray);
+}
+
+.word-card-text,
+.word-card-text2 {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.pagination-wrap {}
+
+.pagination-part2 {
+    color: var(--dark-cyan);
+}
+
+.pagination-page-back,
+.pagination-page-1,
+.pagination-page-3,
+.pagination-page-27,
+.pagination-page-28,
+.pagination-page-29,
+.pagination-page-forward {
+    color: var(--dark-cyan);
+    border: 3px solid var(--dark-cyan);
+    border-radius: 100px;
+}
+
+.pagination-page-back,
+.pagination-page-1,
+.pagination-page-2,
+.pagination-page-3,
+.pagination-part2,
+.pagination-page-27,
+.pagination-page-28,
+.pagination-page-29,
+.pagination-page-forward {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+/* Footer */
+.footer {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.nav-link-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-line {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.nav-site2 {
+    display: flex;
+    gap: 30px;
+}
+
+.nav-link-site2 {
+    font-weight: 600;
+    font-size: 14px;
+
+    color: var(--dark-gray);
+}
+
+.nav-author {
+    display: flex;
+    gap: 30px;
+}
+
+.nav-link-author {
+    font-weight: 600;
+    font-size: 14px;
+
+    color: var(--dark-gray);
+}
+
+.license {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-collection {
+    display: flex;
+    gap: 30px;
+}
+
+.copyright {
+    font-weight: 600;
+    font-size: 12px;
+
+    color: var(--dark-gray);
+}

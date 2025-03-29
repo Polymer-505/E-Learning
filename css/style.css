@@ -47,13 +47,13 @@ a {
 
 .header-wrap {
     display: flex;
-    justify-content: space-between;
+    gap: 30px;
     align-items: center;
 }
 
 .nav-site {
-    padding-left: 60px;
-    padding-right: 443px;
+    display: flex;
+    flex-grow: 1;
     gap: 30px;
 }
 
@@ -66,6 +66,11 @@ a {
 
 .nav-link-site:hover {
     color: var(--black);
+}
+
+.nav-link-first {
+    padding-left: 30px;
+    border-left: 1px solid var(--light-gray);
 }
 
 .account-settings {
@@ -91,6 +96,11 @@ a {
 
 .card-1 {
     background-color: var(--light-gray);
+}
+
+.card-1-wrap {
+    display: flex;
+    align-items: center;
 }
 
 .information-platform {
@@ -141,7 +151,8 @@ a {
     display: flex;
     align-items: baseline;
 
-    margin-right: 49px;
+    padding-right: 49px;
+    border-right: 1px solid #000000;
 }
 
 .interactive-img {
@@ -170,11 +181,21 @@ a {
     display: flex;
     align-items: baseline;
 
-    margin-left: 49px;
+    padding-left: 49px;
 }
 
 .interactive-img2 {
     padding-right: 10px;
+}
+
+.card-2-wrap {
+    display: flex;
+    align-items: center;
+}
+
+.png-people2 {
+    margin-top: 77px;
+    margin-bottom: 77px;
 }
 
 .interactive-text2 {
@@ -195,13 +216,25 @@ a {
     margin: 0;
 }
 
-.sd {
-    display: flex;
+.information-name2 {
+    font-weight: 400;
+    font-size: 48px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.information-description2 {
+    color: var(--dark-gray);
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 0px;
+    margin-bottom: 30px;
 }
 
 .interactive-cards3 {
     background-color: var(--light-pink);
     border-radius: 14px;
+    margin-right: 21px;
     display: inline-flex;
     flex-direction: column;
 }
@@ -225,7 +258,7 @@ a {
     flex-direction: column;
 }
 
-.interactive-img4{
+.interactive-img4 {
     padding-right: 40px;
     padding-left: 40px;
 }
@@ -246,6 +279,77 @@ a {
     background-color: var(--light-gray);
 }
 
+.card-3-wrap {
+    display: flex;
+    align-items: center;
+}
+
+.information-name3 {
+    font-weight: 400;
+    font-size: 48px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.information-description3 {
+    color: var(--dark-gray);
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 0px;
+    margin-bottom: 34px;
+}
+
+.png-people3 {
+    margin-top: 26px;
+}
+
+.card-4-wrap {
+    display: flex;
+    align-items: center;
+}
+
+.png-people4 {
+    margin-top: 95px;
+    margin-bottom: 95px;
+}
+
+.information-name4 {
+    font-weight: 400;
+    font-size: 48px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.information-description4 {
+    color: var(--dark-gray);
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 0px;
+    margin-bottom: 34px;
+}
+
+.footer {
+    background-color: var(--light-gray);
+
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.nav-link-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-line {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.nav-site2 {
+    display: flex;
+    gap: 30px;
+}
+
 .nav-link-site2 {
     font-weight: 600;
     font-size: 14px;
@@ -253,11 +357,26 @@ a {
     color: var(--dark-gray);
 }
 
+.nav-author {
+    display: flex;
+    gap: 30px;
+}
+
 .nav-link-author {
     font-weight: 600;
     font-size: 14px;
 
     color: var(--dark-gray);
+}
+
+.license {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-collection {
+    display: flex;
+    gap: 30px;
 }
 
 .copyright {
