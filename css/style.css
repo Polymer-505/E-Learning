@@ -94,20 +94,30 @@ a {
     color: var(--black);
 }
 
-.card-1 {
+.card-hero {
     background-color: var(--light-gray);
+    padding-bottom: 135px;
+    padding-top: 95px;
+    background-image: url('../images/homepage/people1.png');
+    background-repeat: no-repeat;
+    background-size: 933px;
+    background-position: right bottom;
 }
 
-.card-1-wrap {
+.card-hero-wrap {
     display: flex;
     align-items: center;
+}
+
+.content {
+    max-width: 533px;
 }
 
 .information-platform {
     font-weight: 700;
     font-size: 16px;
-    margin-bottom: 0px;
     margin-top: 95px;
+    margin-bottom: 24px;
 
     color: var(--dark-cyan);
 }
@@ -115,7 +125,6 @@ a {
 .information-name {
     font-weight: 400;
     font-size: 56px;
-    margin-top: 24px;
     margin-bottom: 30px;
 }
 
@@ -152,7 +161,8 @@ a {
     align-items: baseline;
 
     padding-right: 49px;
-    border-right: 1px solid #000000;
+    margin-top: 50px;
+    border-right: 1px solid var(--dark-gray);
 }
 
 .interactive-img {
@@ -182,6 +192,7 @@ a {
     align-items: baseline;
 
     padding-left: 49px;
+    margin-top: 50px;
 }
 
 .interactive-img2 {
@@ -237,6 +248,9 @@ a {
     margin-right: 21px;
     display: inline-flex;
     flex-direction: column;
+    background-image: url('../images/homepage/trainers.svg');
+    background-repeat: no-repeat;
+    background-position: center top -33px;
 }
 
 .interactive-name3 {
@@ -248,7 +262,7 @@ a {
     margin-left: 34px;
     margin-right: 34px;
     margin-bottom: 14px;
-    margin-top: 9px;
+    margin-top: 82px;
 }
 
 .interactive-cards4 {
