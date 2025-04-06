@@ -120,6 +120,10 @@ body {
 /* Main */
 .nav-site2 {
     background-color: var(--white);
+    border: 2px solid var(--light-gray);
+    border-radius: 14px;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 .nav-site2-wrap {
@@ -137,6 +141,12 @@ body {
     margin-left: 10px;
     margin-top: 0px;
     margin-bottom: 0px;
+}
+
+.nav-site2-button {
+    display: flex;
+    gap: 10px;
+    align-items: center;
 }
 
 .nav-site2-game1 {
@@ -214,7 +224,7 @@ body {
 .nav-site3-level5,
 .nav-site3-level6 {
     color: var(--dark-gray);
-    
+
     font-size: 26px;
 }
 
@@ -273,8 +283,38 @@ body {
     margin-bottom: 0px;
 }
 
+.word-card-wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
 .word-card {
     background-color: var(--white);
+    border-radius: 14px;
+}
+
+.word-card-wrap2 {
+    display: flex;
+    align-items: center;
+}
+
+.thumb {
+    /* background-image: url('../images/textbook/statisctic.svg');
+    background-repeat: no-repeat;
+    background-position: center; */
+
+}
+
+.word-card-png {
+    object-fit: cover;
+    object-position: center;
+    display: block;
+}
+
+.word-card-content {
+    width: 50%;
+    padding: 20px;
 }
 
 .word-card-transcription {
@@ -292,10 +332,42 @@ body {
     font-weight: 500;
 }
 
-.pagination-wrap {}
+.pagination {
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+
+.pagination-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.pagination-part1 {
+    display: flex;
+    gap: 24px;
+}
 
 .pagination-part2 {
     color: var(--dark-cyan);
+}
+
+.pagination-part3 {
+    display: flex;
+    gap: 24px;
+}
+
+.pagination-page-2 {
+    color: var(--white);
+    background-color: var(--dark-cyan);
+    border: 3px solid var(--dark-cyan);
+    border-radius: 100px;
+
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-right: 19px;
+    padding-left: 19px;
 }
 
 .pagination-page-back,
@@ -305,9 +377,22 @@ body {
 .pagination-page-28,
 .pagination-page-29,
 .pagination-page-forward {
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-right: 19px;
+    padding-left: 19px;
     color: var(--dark-cyan);
     border: 3px solid var(--dark-cyan);
     border-radius: 100px;
+}
+
+.pagination-page-27,
+.pagination-page-28,
+.pagination-page-29 {
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-right: 13px;
+    padding-left: 13px;
 }
 
 .pagination-page-back,

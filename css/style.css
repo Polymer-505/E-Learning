@@ -248,9 +248,20 @@ a {
     margin-right: 21px;
     display: inline-flex;
     flex-direction: column;
+    position: relative;
+}
+
+.interactive-cards3::before {
+    content: '';
+    width: 131px;
+    height: 106px;
     background-image: url('../images/homepage/trainers.svg');
     background-repeat: no-repeat;
-    background-position: center top -33px;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    top: -33px;
 }
 
 .interactive-name3 {
@@ -270,6 +281,20 @@ a {
     border-radius: 14px;
     display: inline-flex;
     flex-direction: column;
+    position: relative;
+}
+
+.interactive-cards4::before {
+    content: '';
+    width: 91px;
+    height: 106px;
+    background-image: url('../images/homepage/loudspeaker.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    top: -33px;
 }
 
 .interactive-img4 {
@@ -286,7 +311,7 @@ a {
     margin-left: 25px;
     margin-right: 25px;
     margin-bottom: 14px;
-    margin-top: 9px;
+    margin-top: 82px;
 }
 
 .card-3 {
