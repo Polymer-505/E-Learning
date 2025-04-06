@@ -68,6 +68,11 @@ body {
 }
 
 /* Header */
+header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
 .header-wrap {
     display: flex;
     gap: 30px;
@@ -119,9 +124,6 @@ body {
 
 /* Main */
 .nav-site2 {
-    background-color: var(--white);
-    border: 2px solid var(--light-gray);
-    border-radius: 14px;
     padding-top: 25px;
     padding-bottom: 25px;
 }
@@ -130,6 +132,9 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 20px;
+    background-color: var(--white);
+    border-radius: 14px;
 }
 
 .nav-site2-texbook {
@@ -290,20 +295,14 @@ body {
 }
 
 .word-card {
-    background-color: var(--white);
     border-radius: 14px;
 }
 
 .word-card-wrap2 {
     display: flex;
     align-items: center;
-}
-
-.thumb {
-    /* background-image: url('../images/textbook/statisctic.svg');
-    background-repeat: no-repeat;
-    background-position: center; */
-
+    background-color: var(--white);
+    border-radius: 14px;
 }
 
 .word-card-png {
@@ -315,6 +314,10 @@ body {
 .word-card-content {
     width: 50%;
     padding: 20px;
+}
+
+span {
+    color: var(--dark-gray);
 }
 
 .word-card-transcription {

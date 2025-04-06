@@ -45,6 +45,13 @@ a {
     text-decoration: none;
 }
 
+/* Header */
+header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    background-color: var(--light-gray);
+}
+
 .header-wrap {
     display: flex;
     gap: 30px;
@@ -94,6 +101,11 @@ a {
     color: var(--black);
 }
 
+hr {
+    margin: 0;
+}
+
+/* Main */
 .card-hero {
     background-color: var(--light-gray);
     padding-bottom: 135px;
@@ -246,6 +258,7 @@ a {
     background-color: var(--light-pink);
     border-radius: 14px;
     margin-right: 21px;
+    margin-top: 30px;
     display: inline-flex;
     flex-direction: column;
     position: relative;
@@ -293,7 +306,7 @@ a {
     background-position: center;
     background-size: cover;
     position: absolute;
-    left: 0;
+    left: 30px;
     top: -33px;
 }
 
@@ -367,11 +380,12 @@ a {
     margin-bottom: 34px;
 }
 
+/* Footer */
 .footer {
     background-color: var(--light-gray);
 
-    margin-top: 40px;
-    margin-bottom: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .nav-link-footer {
