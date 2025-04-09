@@ -5,14 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GlobalTalk</title>
-    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/style.css">
 </head>
 
 <body>
     <header>
         <div class="container header-wrap">
-            <img src="./images/homepage/globaltalk-logo.svg" alt="GlobalTalk Logo" width="130px">
+            <img src="/src/images/homepage/globaltalk-logo.svg" alt="GlobalTalk Logo" width="130px">
             <nav class="nav-site">
                 <a class="nav-link-site nav-link-first" href="index.html">Home</a>
                 <a class="nav-link-site" href="textbook.html">Textbook</a>
@@ -20,7 +21,7 @@
                 <a class="nav-link-site" href="#">Games</a>
             </nav>
             <section class="account-settings">
-                <img class="account-logo" src="./images/homepage/account-logo.svg" alt="account-logo" width="40px">
+                <img class="account-logo" src="/src/images/homepage/account-logo.svg" alt="account-logo" width="40px">
                 <h3 class="account-name">Alex</h3>
                 <a class="account-sign-out" href="#">Sign Out →</a>
             </section>
@@ -28,7 +29,7 @@
     </header>
     <hr>
     <main>
-        <div class="card-hero">
+        <section class="card-hero">
             <div class="container card-hero-wrap">
                 <div class="content">
                     <h1 class="information-platform">E-COURSE PLATFORM</h1>
@@ -39,14 +40,15 @@
                     <a class="platform-button" href="#">About platform</a>
                     <div class="interactive-cards-collection">
                         <div class="interactive-cards1">
-                            <img class="interactive-img" src="./images/homepage/lightning.svg" alt="" width="25px">
+                            <img class="interactive-img" src="/src/images/homepage/lightning.svg" alt="" width="25px">
                             <div class="interactive-text">
                                 <h2 class="interactive-popular-words">600+</h2>
                                 <h3 class="interactive-name">Popular words</h3>
                             </div>
                         </div>
                         <div class="interactive-cards2">
-                            <img class="interactive-img2" src="./images/homepage/mini-console.svg" alt="" width="25px">
+                            <img class="interactive-img2" src="/src/images/homepage/mini-console.svg" alt=""
+                                width="25px">
                             <div class="interactive-text2">
                                 <h2 class="interactive-popular-words2">2+</h2>
                                 <h3 class="interactive-name2">Mini-games</h3>
@@ -54,13 +56,12 @@
                         </div>
                     </div>
                 </div>
-                <section class="png-people1"></section>
             </div>
-        </div>
-        <div class="card-2">
+        </section>
+        <section class="card-2">
             <div class="container card-2-wrap">
                 <div class="png-people2">
-                    <img class="people2" src="./images/homepage/people2.png" alt="" width="580px">
+                    <img class="people2" src="/src/images/homepage/people2.png" alt="" width="580px">
                 </div>
                 <div class="content">
                     <div class="information-text2">
@@ -75,27 +76,27 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
 
-        <div class="card-3">
+        <section class="card-3">
             <div class="container card-3-wrap">
                 <div class="content">
                     <div class="information-text3">
                         <h2 class="information-name3">Increase your vocabulary</h2>
                         <h3 class="information-description3">Traditional and new effective approaches to word study</h3>
                     </div>
-                    <button class="platform-button">Textbook →</button>
+                    <a class="platform-button" href="textbook.html">Textbook →</a>
                 </div>
                 <div class="png-people3">
-                    <img class="people3" src="./images/homepage/people3.png" alt="" width="580px">
+                    <img class="people3" src="/src/images/homepage/people3.png" alt="" width="580px">
                 </div>
             </div>
-        </div>
+        </section>
 
-        <div class="card-4">
+        <section class="card-4">
             <div class="container card-4-wrap">
                 <div class="png-people4">
-                    <img class="people4" src="./images/homepage/people4.png" alt="">
+                    <img class="people4" src="/src/images/homepage/people4.png" alt="">
                 </div>
                 <div class="content">
                     <div class="information-text4">
@@ -106,7 +107,7 @@
                     <button class="platform-button">Statistics →</button>
                 </div>
             </div>
-        </div>
+        </section>
     </main>
 
     <footer>
@@ -129,14 +130,19 @@
                 <hr class="footer-line">
                 <div class="license">
                     <div class="logo-collection">
-                        <img class="logo" src="./images/homepage/github-logo.svg" alt="" width="30px">
-                        <img class="logo" src="./images/homepage/gt-logo.svg" alt="" width="30px">
-                        <img class="logo" src="./images/homepage/youtube-logo.svg" alt="" width="30px">
+                        <a href="https://github.com">
+                            <img class="logo" src="/src/images/homepage/github-logo.svg" alt="" width="30px">
+                        </a>
+                        <a href="#">
+                            <img class="logo" src="/src/images/homepage/gt-logo.svg" alt="" width="30px">
+                        </a>
+                        <a href="https://youtube.com">
+                            <img class="logo" src="/src/images/homepage/youtube-logo.svg" alt="" width="30px">
+                        </a>
                     </div>
                     <p class="copyright">©2021 GlobalTalk. Project for GlobalTalk.</p>
-                </section>
+                </div>
             </div>
-        </div>
     </footer>
 </body>
 
