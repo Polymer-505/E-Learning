@@ -25,6 +25,7 @@
 :root {
     --dark-gray: #757575;
     --light-gray: #F6F5F4;
+    --medium-gray: #E0E0E0;
     --black: #000000;
     --white: #FFFFFF;
     --dark-cyan: #2B788B;
@@ -70,6 +71,8 @@ body {
 header {
     padding-top: 24px;
     padding-bottom: 24px;
+
+    border-bottom: 2px solid var(--medium-gray);
 }
 
 .header-wrap {
@@ -124,6 +127,10 @@ header {
 }
 
 /* Main */
+.textbook {
+    margin-top: 40px;
+}
+
 .nav-site2 {
     margin-top: 40px;
 }
@@ -135,6 +142,8 @@ header {
     padding: 20px;
     background-color: var(--white);
     border-radius: 14px;
+
+    border: 2px solid #ff0000;
 }
 
 .nav-site2-texbook {
@@ -204,6 +213,8 @@ header {
     display: flex;
     justify-content: space-evenly;
     gap: 40px;
+
+    border: 2px solid #ff0000;
 }
 
 .nav-site3-part1,
@@ -307,6 +318,8 @@ header {
     display: flex;
     align-items: center;
     background-color: var(--white);
+
+    border: 2px solid #ff0000;
 }
 
 .word-card-png {
@@ -338,7 +351,7 @@ span {
 
 .word-card-text {
     padding-bottom: 12px;
-    border-bottom: 2px solid var(--dark-gray);
+    border-bottom: 2px solid var(--medium-gray);
 }
 
 .word-card-text2 {
@@ -363,6 +376,8 @@ span {
     justify-content: center;
     align-items: center;
     gap: 24px;
+
+    border: 2px solid #ff0000;
 }
 
 .pagination-part1 {
@@ -438,6 +453,9 @@ span {
 .nav-link-footer {
     display: flex;
     justify-content: space-between;
+    padding-bottom: 20px;
+
+    border-bottom: 2px solid var(--medium-gray);
 }
 
 .footer-line {
@@ -472,6 +490,7 @@ span {
 .license {
     display: flex;
     justify-content: space-between;
+    padding-top: 20px;
 }
 
 .logo-collection {

@@ -19,6 +19,7 @@
 :root {
     --dark-gray: #757575;
     --light-gray: #F6F5F4;
+    --medium-gray: #E0E0E0;
     --black: #000000;
     --dark-cyan: #2B788B;
     --light-cyan: #C3DCE3;
@@ -49,6 +50,7 @@ header {
     padding-top: 24px;
     padding-bottom: 24px;
     background-color: var(--light-gray);
+    border-bottom: 2px solid var(--medium-gray);
 }
 
 .header-wrap {
@@ -175,7 +177,7 @@ hr {
 
     padding-right: 49px;
     margin-top: 50px;
-    border-right: 1px solid var(--dark-gray);
+    border-right: 1px solid var(--medium-gray);
 }
 
 .interactive-img {
@@ -392,11 +394,9 @@ hr {
 .nav-link-footer {
     display: flex;
     justify-content: space-between;
-}
-
-.footer-line {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    padding-bottom: 20px;
+    
+    border-bottom: 2px solid var(--medium-gray);
 }
 
 .nav-site2 {
@@ -426,6 +426,7 @@ hr {
 .license {
     display: flex;
     justify-content: space-between;
+    padding-top: 20px;
 }
 
 .logo-collection {
