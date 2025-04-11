@@ -158,6 +158,7 @@ hr {
 
     color: var(--dark-cyan);
     background-color: var(--light-cyan);
+    cursor: pointer;
 
     border-width: 0px;
     padding-left: 22px;

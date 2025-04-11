@@ -193,6 +193,8 @@ header {
 
 .nav-site2-game1,
 .nav-site2-game2 {
+    cursor: pointer;
+
     font-size: 16px;
     font-weight: 700;
 }
@@ -200,6 +202,8 @@ header {
 .nav-site2-settings {
     background-color: var(--light-gray);
     border: 0px solid var(--light-gray);
+    cursor: pointer;
+
     padding: 8px;
     border-radius: 4px;
 }
@@ -329,16 +333,31 @@ header {
 }
 
 .word-card-content {
-    width: 50%;
     padding-left: 40px;
-    padding-right: 33px;
+    padding-right: 24px;
+}
+
+.word-card-header::after {
+    content: '';
+    display: inline-block;
+    background-image: url(../images/textbook/play-icon.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: var(--light-gray);
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
 .word-card-header {
+    font-size: 32px;
     margin-bottom: 12px;
+    display: flex;
+    justify-content: space-between;
 }
 
-span {
+.word-card-span {
     color: var(--dark-gray);
 }
 
