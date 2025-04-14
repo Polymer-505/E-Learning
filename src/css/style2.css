@@ -225,6 +225,16 @@ header {
     display: flex;
     flex-direction: row;
     align-items: center;
+    padding-bottom: 14px;
+}
+
+.nav-site3-part1:hover,
+.nav-site3-part2:hover,
+.nav-site3-part3:hover,
+.nav-site3-part4:hover,
+.nav-site3-part5:hover,
+.nav-site3-part6:hover {
+    border-bottom: 5px solid var(--black);
 }
 
 .nav-site3-level1 {
@@ -311,6 +321,7 @@ header {
     overflow: hidden;
     max-width: 962px;
     margin: 0 auto;
+    box-shadow: 0px 0px 76px -23px rgba(0, 0, 0, 0.33);
 }
 
 .word-card-wrap2 {
