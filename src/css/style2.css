@@ -43,7 +43,6 @@
 .container {
     width: 1180px;
     margin: 0 auto;
-    border: 2px solid #ff0000;
 }
 
 a {
@@ -142,8 +141,6 @@ header {
     padding: 20px;
     background-color: var(--white);
     border-radius: 14px;
-
-    border: 2px solid #ff0000;
 }
 
 .nav-site2-texbook {
@@ -217,8 +214,6 @@ header {
     display: flex;
     justify-content: space-evenly;
     gap: 40px;
-
-    border: 2px solid #ff0000;
 }
 
 .nav-site3-part1,
@@ -322,8 +317,6 @@ header {
     display: flex;
     align-items: center;
     background-color: var(--white);
-
-    border: 2px solid #ff0000;
 }
 
 .word-card-png {
@@ -395,8 +388,6 @@ header {
     justify-content: center;
     align-items: center;
     gap: 24px;
-
-    border: 2px solid #ff0000;
 }
 
 .pagination-part1 {
