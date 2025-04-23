@@ -24,8 +24,9 @@
 
 :root {
     --dark-gray: #757575;
+    --medium-gray:#BABABA;
     --light-gray: #F6F5F4;
-    --medium-gray: #E0E0E0;
+    --light-gray2: #E0E0E0;
     --black: #000000;
     --white: #FFFFFF;
     --dark-cyan: #2B788B;
@@ -71,7 +72,7 @@ header {
     padding-top: 24px;
     padding-bottom: 24px;
 
-    border-bottom: 2px solid var(--medium-gray);
+    border-bottom: 2px solid var(--light-gray2);
 }
 
 .header-wrap {
@@ -375,7 +376,7 @@ header {
 
 .word-card-text {
     padding-bottom: 12px;
-    border-bottom: 2px solid var(--medium-gray);
+    border-bottom: 2px solid var(--light-gray2);
 }
 
 .word-card-text2 {
@@ -477,7 +478,7 @@ header {
     justify-content: space-between;
     padding-bottom: 20px;
 
-    border-bottom: 2px solid var(--medium-gray);
+    border-bottom: 2px solid var(--light-gray2);
 }
 
 .footer-line {
@@ -518,6 +519,12 @@ header {
 .logo-collection {
     display: flex;
     gap: 30px;
+}
+
+.logo{
+    width: 30px;
+    height: 24px;
+    fill: var(--medium-gray);
 }
 
 .copyright {
