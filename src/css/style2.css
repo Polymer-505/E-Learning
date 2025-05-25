@@ -68,11 +68,16 @@ body {
 }
 
 /* Header */
-header {
+.header {
     padding-top: 24px;
     padding-bottom: 24px;
-
+    background-color: var(--light-gray);
     border-bottom: 2px solid var(--light-gray2);
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 3;
 }
 
 .header-wrap {
@@ -90,12 +95,17 @@ header {
 .nav-link-site {
     font-weight: 600;
     font-size: 16px;
-
+    
+    transition-property: color;
+    transition-duration: 0.8s;
     color: var(--dark-gray);
 }
 
 .nav-link-site:hover {
     color: var(--black);
+
+    transition-property: color;
+    transition-duration: 0.8s;
 }
 
 .nav-link-first {
@@ -332,10 +342,28 @@ header {
     background-color: var(--white);
 }
 
+.thumb{
+    overflow: hidden;
+    position: relative;
+    width: 650px;
+}
+
 .word-card-png {
     object-fit: cover;
     object-position: center;
     display: block;
+}
+
+.word-card-overlay {
+    position: absolute;
+    right: 0;
+    top: 10%;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in;
+}
+
+.thumb:hover .word-card-overlay {
+    transform: translateY(0);
 }
 
 .word-card-content {

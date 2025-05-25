@@ -18,7 +18,7 @@
 
 :root {
     --dark-gray: #757575;
-    --medium-gray:#BABABA;
+    --medium-gray: #BABABA;
     --light-gray: #F6F5F4;
     --light-gray2: #E0E0E0;
     --black: #000000;
@@ -45,12 +45,21 @@ a {
     text-decoration: none;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* Header */
-header {
+.header {
     padding-top: 24px;
     padding-bottom: 24px;
     background-color: var(--light-gray);
     border-bottom: 2px solid var(--light-gray2);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 3;
 }
 
 .header-wrap {
@@ -68,12 +77,16 @@ header {
 .nav-link-site {
     font-weight: 600;
     font-size: 16px;
-
+    
+    transition-property: color;
+    transition-duration: 0.8s;
     color: var(--dark-gray);
 }
 
 .nav-link-site:hover {
     color: var(--black);
+    transition-property: color;
+    transition-duration: 0.8s;
 }
 
 .nav-link-first {
@@ -396,13 +409,31 @@ hr {
     display: flex;
     justify-content: space-between;
     padding-bottom: 20px;
-    
+
     border-bottom: 2px solid var(--light-gray2);
 }
 
 .nav-site2 {
     display: flex;
     gap: 30px;
+}
+
+.page-icon {
+    width: 32px;
+    height: 17px;
+}
+
+.page-links {
+    fill: var(--dark-gray);
+}
+
+.page-links:hover,
+.nav-link-site2:hover {
+    fill: var(--dark-cyan);
+    color: var(--dark-cyan);
+
+    transition-property: color;
+    transition-duration: 0.8s;
 }
 
 .nav-link-site2 {
@@ -435,7 +466,7 @@ hr {
     gap: 30px;
 }
 
-.logo{
+.logo {
     width: 30px;
     height: 24px;
     fill: var(--medium-gray);
@@ -446,4 +477,57 @@ hr {
     font-size: 12px;
 
     color: var(--dark-gray);
+}
+
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    /* inset: 0; */
+    background-color: rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(10px);
+}
+
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    height: 320px;
+    padding: 35px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 5px rgb(119, 119, 119);
+}
+
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.backdrop.is-hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.no-scrool {
+    overflow: hidden;
+}
+
+.to-top {
+    border: 2px solid var(--dark-cyan);
+    border-radius: 50px;
+    background-color: var(--light-cyan);
+    width: 70px;
+    height: 70px;
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
