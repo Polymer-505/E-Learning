@@ -8,6 +8,7 @@
       rel="stylesheet"
       href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="src/css/reset.css" />
     <link rel="stylesheet" href="src/css/style2.css" />
   </head>
@@ -129,7 +130,7 @@
                 </div>
               </div>
             </li>
-            <li class="word-card">
+            <li class="word-card" data-aos="fade-up">
               <div class="word-card-wrap2">
                 <div class="thumb">
                   <img
@@ -165,7 +166,7 @@
                 </div>
               </div>
             </li>
-            <li class="word-card">
+            <li class="word-card" data-aos="fade-up">
               <div class="word-card-wrap2">
                 <div class="thumb">
                   <img
@@ -269,5 +270,9 @@
         </div>
       </div>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
